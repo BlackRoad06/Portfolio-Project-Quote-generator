@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 40px;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    background-color:  #2d4059; 
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 150px;
+}
+
+header h1{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+   
+}
+
+p{
+    font-style: italic;
+    line-height: 2.5;
+    font-weight: bold;
+}
+
+main{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div{
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 50%;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    display: block;
+}
+
+#quoteBy{
+    font-size: 0.7rem;
+    font-style: normal;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+button{
+    padding: 2rem 5rem;
+    font-size: 1.5rem; 
+    background-color: #007BFF; 
+    color: white;      
+    border-radius: 5px; /
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+    button{
+      padding: 1rem 3rem;
+    }
+}
